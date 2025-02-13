@@ -57,26 +57,18 @@ nav {
 
 .content-info {
   width: 100%;
-  padding: 2rem;
 }
 
 .content-info h1 {
   font-size: 4rem;
-}
-
-.content-info h2  {
-  font-size: 3rem;
-  line-height: 6rem;
+  text-align: center;
 }
 
 .content-info p {
   font-size: 1.5rem;
   line-height: 2.5rem;
-}
-
-.content-img img {
-  width: 100%;
-  padding: 2rem;
+  padding: 0 8rem;
+  text-align: center;
 }
 
 .content-2 {
@@ -86,78 +78,118 @@ nav {
   font-style: normal;
 }
 
-.content-con1 {
+.content-con2 {
   background-color: rgb(255, 255, 255);
-  display: flex;
+  align-items: center;
 }
 
-.content-info1 {
-  max-width: 100%;
-  padding: 1rem 2rem;
+.content-info2 {
+  width: 100%;
 }
 
-.content-img1 img {
-  padding: 0.5rem;
-}
-
-.content-img1 p {
-  font-size: 2rem;
+.content-info2 h1 {
+  font-size: 4rem;
   text-align: center;
-  padding: 0.5rem;
 }
 
-.content-2 h1 {
-  font-size: 3rem;
-}
-
-.content-info1 p {
+.content-info2 p {
   font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 1.5rem 8rem;
+  text-align: center;
 }
 
-.lesson {
+.content-img2  {
+  text-align: center;
+}
+
+.content-img2 img {
+  width: 50%;
+}
+
+.content-img2 p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 1.5rem 8rem;
+}
+
+.content-3 {
   background-color: rgb(241, 240, 240);
   font-family: "Kanit", serif;
   font-weight: 300;
   font-style: normal;
 }
 
-.lesson-con {
+.content-con3 {
   background-color: rgb(255, 255, 255);
+  align-items: center;
 }
 
-.lesson-info {
-  padding: 1.5rem;
+.content-info3 {
+  width: 100%;
 }
 
-.lesson-info h1 {
+.content-info3 h1 {
+  font-size: 4rem;
   text-align: center;
-  font-size: 3rem;
+}
+
+.content-info3 p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 1.5rem 8rem;
+}
+
+.content-img3  {
+  text-align: center;
+}
+
+.content-img3 img {
+  width: 50%;
   padding: 1rem;
 }
 
-.lesson-info ul {
-  list-style: none;
+.content-img3 p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 1.5rem 8rem;
+}
+
+.button-container1 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.button-container {
   text-align: center;
-  font-size: 2rem;
+  padding: 2rem 2rem;
 }
 
-.lesson-info a {
+.button-container a {
+  font-size: 1.5rem;
+  background-color: rgb(75, 243, 75);
+  padding: 1.5rem;
+  border-radius: 2rem;
   text-decoration: none;
-  color: green;
+  color: black;
+
 }
 
-.lesson-info li :hover {
-  font-size: 3rem;
-  text-decoration: underline 0.3rem;
-  text-decoration-color: rgb(215, 169, 219);
-  transition: 0.14s ease;
-  text-shadow: 0 4px 7px rgb(82, 80, 80);
+.button-container a:hover {
+  transition: 0.8s ease;
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 167, 167);
+  border: 2px solid rgb(0, 77, 128);
 }
 
 footer {
   background-color: rgb(209, 204, 204);
   padding: 3rem;
 }
+
 
 .row {
   padding: 1rem;

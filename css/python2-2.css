@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  @media screen and (min-height: 767px) {
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 2rem;
+  background-color: rgb(138, 243, 185);
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  padding: 0 2rem;
+  
+}
+
+.navbar li a {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.navbar :hover {
+  transition: 0.4s ease;
+  font-size: 2.3rem;
+  color: white;
+}
+
+.content-1 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content-con {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.content-info {
+  width: 100%;
+  padding: 2rem;
+}
+
+.content-info h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-info p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 0 2rem;
+}
+
+.content-2 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content-con2 {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.content-info2 {
+  width: 100%;
+  padding: 1rem;
+}
+
+.content-info2 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-info2 p {
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+.content-img2  {
+  text-align: center;
+}
+
+.content-img2 img {
+  width: 50%;
+}
+
+.content-3 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content-con3 {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.content-info3 {
+  width: 100%;
+  padding: 2rem;
+}
+
+.content-info3 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-info3 p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.content-img3  {
+  text-align: center;
+}
+
+.content-img3 img {
+  width: 50%;
+  padding: 1rem;
+}
+
+.content-4 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content-con4 {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.content-info4 {
+  width: 100%;
+  padding: 2rem;
+}
+
+.content-info4 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-info4 p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.content-5 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content-con5 {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.content-info5 {
+  width: 100%;
+  padding: 2rem;
+}
+
+.content-info5 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-info5 p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.content-img5  {
+  text-align: center;
+}
+
+.content-img5 img {
+  width: 50%;
+  padding: 1rem;
+}
+
+.content-img5 h2 {
+  font-size: 2rem;
+}
+
+.content-img5 p {
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+.content-6 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content-con6 {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.content-info6 {
+  width: 100%;
+  padding: 2rem;
+}
+
+.content-info6 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-info6 p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.content-img6  {
+  text-align: center;
+}
+
+.content-img6 img {
+  width: 75%;
+  padding: 1rem;
+}
+
+.content-img6 p {
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+.content-img6 h1 {
+  font-size: 2rem;
+}
+
+.content-7 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content-con7 {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.content-info7 {
+  width: 100%;
+  padding: 2rem;
+}
+
+.content-info7 h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content-info7 p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.content-img7  {
+  text-align: center;
+}
+
+.content-img7 img {
+  width: 50%;
+  padding: 1rem;
+}
+
+.content-img7 p {
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+.content-img7 h1 {
+  font-size: 2rem;
+}
+
+.content-8 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.content-con8 {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.content-info8 {
+  width: 100%;
+  padding: 2rem;
+}
+
+.content-info8 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-info8 p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.content-img8  {
+  text-align: center;
+}
+
+.content-img8 img {
+  width: 50%;
+  padding: 1rem;
+}
+
+.content-img8 p {
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+.content-img8 h1 {
+  font-size: 2rem;
+}
+
+.button-container1 {
+  background-color: rgb(241, 240, 240);
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.button-container {
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.button-container a {
+  font-size: 1.5rem;
+  background-color: rgb(75, 243, 75);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+
+}
+
+.button-container a:hover {
+  transition: 0.8s ease;
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 167, 167);
+  border: 2px solid rgb(0, 77, 128);
+}
+
+footer {
+  background-color: rgb(209, 204, 204);
+  padding: 3rem;
+}
+
+
+.row {
+  padding: 1rem;
+}
+
+.copyright p {
+  font-size: 1.1rem;
+  text-align: center;
+}
